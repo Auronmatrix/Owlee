@@ -15,9 +15,16 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
+        "bootstrap/css/bootstrap.css",
+        "bootflat/css/bootflat.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "bootflat/js/bootstrap.min.js",
+        "bootflat/js/icheck.min.js",
+        "bootflat/js/jquery.fs.selecter.min.js",
+        "bootflat/js/jquery.fs.stepper.min.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
