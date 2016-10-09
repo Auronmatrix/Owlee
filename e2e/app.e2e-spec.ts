@@ -1,6 +1,6 @@
 import { TickPage } from './app.po';
 
-describe('tick App', function() {
+describe('Owlee App', function() {
   let page: TickPage;
 
   beforeEach(() => {
