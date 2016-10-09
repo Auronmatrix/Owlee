@@ -20,7 +20,7 @@
         "styles.css"
       ],
       "scripts": [
-        "bootflat/js/bootstrap.min.js",
+        "bootstrap/js/bootstrap.min.js",
         "bootflat/js/icheck.min.js",
         "bootflat/js/jquery.fs.selecter.min.js",
         "bootflat/js/jquery.fs.stepper.min.js"

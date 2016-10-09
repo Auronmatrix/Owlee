@@ -1,0 +1,9 @@
+<form class="form form-inline" (ngSubmit)="addStudent()">
+  <div class="input-group">
+    <input class="form-control col-xs-8" type="text" [(ngModel)]="name" name="name" placeholder="Student Name" />
+    <span class="input-group-btn">
+       <input type="submit" value="Add" class="btn btn-success {{name ? '' : 'disabled'}}" />
+    </span>
+  </div>
+</form>
+<br/>

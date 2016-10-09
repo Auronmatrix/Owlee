@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { TickComponent } from './tick/tick.component';
+import { StudentFormComponent } from './student-form/student-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TickComponent
+    TickComponent,
+    StudentFormComponent
   ],
   imports: [
     BrowserModule,
